@@ -41,36 +41,41 @@ header {
 .overskrift_3,
 .overskrift_4 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
   color: #ff44ff;
   margin-right: 40px;
   margin-left: 40px;
 }
 
 .overskrift_1 {
+  margin-top: 150px;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
+  font-size: 1.4rem;
   grid-column: 2/3;
   grid-row: 2/3;
-  justify-content: center;
+  justify-content: left;
 }
 
 .overskrift_2 {
+  font-size: 1.7rem;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   justify-content: right;
 }
 
 .overskrift_3 {
+  font-size: 1.8rem;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
+  grid-column: 2/3;
   justify-content: left;
 }
 
 .overskrift_4 {
+  font-size: 2rem;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  justify-content: center;
+  justify-content: right;
 }
 
 .collage {
