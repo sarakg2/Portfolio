@@ -78,7 +78,55 @@ header {
   justify-content: right;
 }
 
-.collage {
+/* .collage {
   position: absolute;
   left: 28%;
+} */
+
+.cv {
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.cv h2 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 5rem;
+  color: #ff44ff;
+}
+
+.cv h3 {
+  font-family: "Faster One", cursive;
+  font-size: 2.5rem;
+  color: #1a23fc;
+}
+
+.cv h4 {
+  font-family: "Monteserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #170b0d;
+}
+
+.cv p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #170b0d;
+}
+
+.uddannelse h2 {
+  margin-top: 100px;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 5rem;
+  color: #ff44ff;
+}
+
+.uddannelse h3 {
+  font-family: "Faster One", cursive;
+  font-size: 2.5rem;
+  color: #1a23fc;
+}
+
+.uddannesle h4 {
+  font-family: "Monteserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #170b0d;
 }
