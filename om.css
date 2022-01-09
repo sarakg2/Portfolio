@@ -34,6 +34,7 @@ header {
   color: #170b0d;
   position: relative;
   align-self: flex-end;
+  margin-left: 700px;
 }
 
 .overskrift_1,
@@ -53,14 +54,14 @@ header {
   font-size: 1.4rem;
   grid-column: 2/3;
   grid-row: 2/3;
-  justify-content: left;
+  text-align: left;
 }
 
 .overskrift_2 {
   font-size: 1.7rem;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  justify-content: right;
+  text-align: right;
 }
 
 .overskrift_3 {
@@ -68,14 +69,14 @@ header {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-column: 2/3;
-  justify-content: left;
+  text-align: left;
 }
 
 .overskrift_4 {
   font-size: 2rem;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  justify-content: right;
+  text-align: right;
 }
 
 /* .collage {
@@ -84,8 +85,7 @@ header {
 } */
 
 .cv {
-  margin-top: 10px;
-  justify-content: center;
+  text-align: center;
 }
 
 .cv h2 {
@@ -112,6 +112,10 @@ header {
   color: #170b0d;
 }
 
+.uddannelse {
+  text-align: center;
+}
+
 .uddannelse h2 {
   margin-top: 100px;
   font-family: "Archivo Black", sans-serif;
@@ -125,8 +129,20 @@ header {
   color: #1a23fc;
 }
 
-.uddannesle h4 {
+.uddannelse h4 {
   font-family: "Monteserrat", sans-serif;
   font-size: 1.2rem;
   color: #170b0d;
+}
+
+.uddannelse p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #170b0d;
+}
+
+footer {
+  min-height: 150px;
+  background-color: #ffff4e;
+  font-family: "Archivo Black", sans-serif;
 }
