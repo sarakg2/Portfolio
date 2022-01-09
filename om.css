@@ -43,7 +43,34 @@ header {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   color: #ff44ff;
-  justify-content: space-around;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.overskrift_1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  justify-content: center;
+}
+
+.overskrift_2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: right;
+}
+
+.overskrift_3 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: left;
+}
+
+.overskrift_4 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
 }
 
 .collage {
