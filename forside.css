@@ -4,6 +4,8 @@ a:visited {
 
 li {
   display: inline-flex;
+  text-align: right;
+  margin-right: 190px;
   font-family: "Faster One", cursive;
   color: #170b0d;
 }
@@ -28,5 +30,8 @@ header {
   color: #170b0d;
   font-family: "Archivo Black", sans-serif;
   font-size: 3rem;
-  display: grid;
+}
+
+.splash-billede_tekst h1 {
+  margin-left: 210px;
 }

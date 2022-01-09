@@ -7,8 +7,12 @@ body {
 }
 
 li {
-  display: inline-flex;
+  display: block;
+  text-align: right;
+  justify-content: space-evenly;
+  margin-right: 40px;
   font-family: "Faster One", cursive;
+  font-size: 1rem;
   color: #170b0d;
 }
 
@@ -142,6 +146,7 @@ header {
 }
 
 footer {
+  margin-top: 80px;
   min-height: 150px;
   background-color: #ffff4e;
   font-family: "Archivo Black", sans-serif;
