@@ -17,14 +17,15 @@ header {
 #first_section {
   width: 100%;
   height: 100vh;
-  background-image: url(/Billeder/om_mig_samlet.png);
+  background-image: url(/Billeder/omg_mig_samlet_.png);
   background-size: cover;
   background-position: 10%;
   position: absolute;
   margin: 0 auto;
 }
 
-.om_mig {
+.om_mig_tekst {
   font-family: "Archivo Black", sans-serif;
   font-size: 1.2rem;
+  color: #170b0d;
 }
