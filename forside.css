@@ -17,17 +17,15 @@ header {
 #first_section {
   width: 100%;
   height: 100vh;
-  background-image: url(/Billeder/splash-billede_tekst.jpg);
+  background-image: url(/Billeder/splash-billede_tekst.png);
   background-size: cover;
   background-position: 10%;
   position: absolute;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 2fr 2fr 1fr 1fr 2fr;
 }
 
-h1 {
+.splash-billede_tekst {
   color: #ff44ff;
   font-family: "Archivo Black", sans-serif;
+  font-size: 3rem;
 }

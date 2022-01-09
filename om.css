@@ -1,0 +1,30 @@
+a:visited {
+  color: inherit;
+}
+
+li {
+  display: inline-flex;
+  font-family: "Faster One", cursive;
+  color: #170b0d;
+}
+
+header {
+  display: grid;
+  justify-content: right;
+  top: 0%;
+}
+
+#first_section {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/Billeder/om_mig_samlet.png);
+  background-size: cover;
+  background-position: 10%;
+  position: absolute;
+  margin: 0 auto;
+}
+
+.om_mig {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 1.2rem;
+}
