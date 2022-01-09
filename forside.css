@@ -28,4 +28,5 @@ header {
   color: #170b0d;
   font-family: "Archivo Black", sans-serif;
   font-size: 3rem;
+  display: grid;
 }

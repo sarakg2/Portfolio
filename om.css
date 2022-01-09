@@ -2,6 +2,10 @@ a:visited {
   color: inherit;
 }
 
+body {
+  background-color: #fff2ff;
+}
+
 li {
   display: inline-flex;
   font-family: "Faster One", cursive;
@@ -15,9 +19,9 @@ header {
 }
 
 #first_section {
+  background-image: url(/Billeder/omg_mig_samlet_.png);
   width: 100%;
   height: 100vh;
-  background-image: url(/Billeder/omg_mig_samlet_.png);
   background-size: cover;
   background-position: 10%;
   position: absolute;
@@ -28,4 +32,21 @@ header {
   font-family: "Archivo Black", sans-serif;
   font-size: 1.2rem;
   color: #170b0d;
+  position: relative;
+  align-self: flex-end;
+}
+
+.overskrift_1,
+.overskrift_2,
+.overskrift_3,
+.overskrift_4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #ff44ff;
+  justify-content: space-around;
+}
+
+.collage {
+  position: absolute;
+  left: 28%;
 }
