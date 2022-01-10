@@ -7,7 +7,7 @@ body {
 }
 
 li {
-  display: block;
+  display: inline-flex;
   text-align: right;
   justify-content: space-evenly;
   margin-right: 40px;
