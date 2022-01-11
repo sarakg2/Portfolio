@@ -12,7 +12,7 @@ li {
   justify-content: space-evenly;
   margin-right: 40px;
   font-family: "Faster One", cursive;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #170b0d;
 }
 
@@ -59,12 +59,13 @@ p {
   margin-left: 30px;
 }
 
-footer {
-  text-align: center;
-  margin-top: 180px;
-  min-height: 150px;
-  background-color: #ffff4e;
-  font-family: "Archivo Black", sans-serif;
+.link {
+  font-family: "Archivo", sans-serif;
+  color: #555;
+  font-weight: bolder;
+  font-size: 1rem;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 #button {
@@ -75,8 +76,8 @@ footer {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
+  background-color: #ff44ff; /* Set a background color */
+  color: #ffff4e; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
@@ -85,4 +86,12 @@ footer {
 
 #button:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+}
+
+footer {
+  text-align: center;
+  margin-top: 180px;
+  min-height: 150px;
+  background-color: #ffff4e;
+  font-family: "Archivo Black", sans-serif;
 }
