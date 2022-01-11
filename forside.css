@@ -1,20 +1,24 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 a:visited {
   color: inherit;
 }
 
 li {
-  display: inline-flex;
+  display: block;
   text-align: right;
-  margin-right: 190px;
+  margin-right: 180px;
   font-family: "Faster One", cursive;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #170b0d;
 }
 
 header {
-  display: grid;
-  justify-content: right;
-  top: 0%;
+  text-align: right;
+  margin-top: 5px;
 }
 
 #first_section {
@@ -34,5 +38,8 @@ header {
 }
 
 .splash-billede_tekst h1 {
+  margin-top: 60px;
   margin-left: 210px;
 }
+
+@media (700px);

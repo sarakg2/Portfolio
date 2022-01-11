@@ -9,7 +9,6 @@ body {
 li {
   display: inline-flex;
   text-align: right;
-  justify-content: space-evenly;
   margin-right: 40px;
   font-family: "Faster One", cursive;
   font-size: 1.2rem;
@@ -17,13 +16,43 @@ li {
 }
 
 header {
-  display: grid;
-  justify-content: right;
-  top: 0%;
+  text-align: right;
+  margin-top: 10px;
 }
 
 .splash-billede {
   text-align: right;
+}
+
+#first_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.tema_2 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.tema_3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.tema_4 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.tema_5 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.tema_6 {
+  grid-column: 1/2;
+  grid-row: 5/6;
 }
 
 h2 {
@@ -32,7 +61,6 @@ h2 {
   color: #1a23fc;
   margin-right: 30px;
   margin-left: 30px;
-  margin-top: 180px;
 }
 
 #first_section h3 {
@@ -45,7 +73,8 @@ h2 {
 }
 
 h4 {
-  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
   margin-right: 30px;
   margin-left: 30px;
 }
@@ -54,7 +83,7 @@ p {
   font-family: "Montserrat", sans-serif;
   color: #170b0d;
   font-weight: bolder;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-right: 30px;
   margin-left: 30px;
 }
@@ -90,7 +119,7 @@ p {
 
 footer {
   text-align: center;
-  margin-top: 180px;
+  /*   margin-top: 180px; */
   min-height: 150px;
   background-color: #ffff4e;
   font-family: "Archivo Black", sans-serif;

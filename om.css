@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 a:visited {
   color: inherit;
 }
@@ -9,7 +14,6 @@ body {
 li {
   display: inline-flex;
   text-align: right;
-  justify-content: space-evenly;
   margin-right: 40px;
   font-family: "Faster One", cursive;
   font-size: 1.2rem;
@@ -17,9 +21,8 @@ li {
 }
 
 header {
-  display: grid;
-  justify-content: right;
-  top: 0%;
+  text-align: right;
+  margin-top: 10px;
 }
 
 #first_section {
@@ -34,7 +37,7 @@ header {
 
 .om_mig_tekst {
   font-family: "Archivo Black", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #170b0d;
   position: relative;
   align-self: flex-end;
@@ -47,47 +50,31 @@ header {
 .overskrift_4 {
   font-family: "Montserrat", sans-serif;
   color: #ff44ff;
-  margin-right: 40px;
-  margin-left: 40px;
+  margin-top: 320px;
+  margin-bottom: 320px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .overskrift_1 {
-  margin-top: 150px;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
   font-size: 1.4rem;
-  grid-column: 2/3;
-  grid-row: 2/3;
   text-align: left;
 }
 
 .overskrift_2 {
   font-size: 1.7rem;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
   text-align: right;
 }
 
 .overskrift_3 {
   font-size: 1.8rem;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-column: 2/3;
   text-align: left;
 }
 
 .overskrift_4 {
   font-size: 2rem;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
   text-align: right;
 }
-
-/* .collage {
-  position: absolute;
-  left: 28%;
-} */
-
 .cv {
   text-align: center;
 }
@@ -96,12 +83,15 @@ header {
   font-family: "Archivo Black", sans-serif;
   font-size: 5rem;
   color: #ff44ff;
+  margin-top: 200px;
+  margin-bottom: 80px;
 }
 
 .cv h3 {
   font-family: "Faster One", cursive;
   font-size: 2.5rem;
   color: #1a23fc;
+  margin-bottom: 60px;
 }
 
 .cv h4 {
@@ -114,6 +104,7 @@ header {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   color: #170b0d;
+  margin-bottom: 60px;
 }
 
 .uddannelse {
@@ -122,6 +113,7 @@ header {
 
 .uddannelse h2 {
   margin-top: 100px;
+  margin-bottom: 60px;
   font-family: "Archivo Black", sans-serif;
   font-size: 5rem;
   color: #ff44ff;
@@ -131,6 +123,7 @@ header {
   font-family: "Faster One", cursive;
   font-size: 2.5rem;
   color: #1a23fc;
+  margin-bottom: 60px;
 }
 
 .uddannelse h4 {
@@ -143,6 +136,7 @@ header {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   color: #170b0d;
+  margin-bottom: 80px;
 }
 
 footer {
