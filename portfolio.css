@@ -111,7 +111,6 @@ p {
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
-  margin-right: 20px;
 }
 
 #button:hover {
