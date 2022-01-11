@@ -20,8 +20,9 @@ header {
   margin-top: 10px;
 }
 
-.splash-billede {
-  text-align: right;
+img {
+  width: 85%;
+  padding-left: 10%;
 }
 
 #first_section {
