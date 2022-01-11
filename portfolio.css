@@ -19,7 +19,12 @@ header {
   text-align: right;
   margin-top: 10px;
 }
-s #first_section {
+
+.splash-billede {
+  text-align: right;
+}
+
+#first_section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(1, 1fr);
