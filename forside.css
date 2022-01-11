@@ -24,7 +24,7 @@ header {
 #first_section {
   width: 100%;
   height: 100vh;
-  background-image: url(/billeder/splash-billede_tekst.png);
+  background-image: url(/billeder/splashbillede.png);
   background-size: cover;
   background-position: 10%;
   position: absolute;
