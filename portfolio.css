@@ -119,7 +119,6 @@ p {
 
 footer {
   text-align: center;
-  /*   margin-top: 180px; */
   min-height: 150px;
   background-color: #ffff4e;
   font-family: "Archivo Black", sans-serif;
@@ -143,8 +142,43 @@ footer {
   }
 
   li {
-    display: inline-flex;
+    display: block;
     text-align: right;
     font-size: 1rem;
+    margin-right: 20px;
+  }
+
+  #first_section {
+    display: block;
+  }
+
+  .tema_2 {
+    text-align: left;
+  }
+
+  .tema_3 {
+    text-align: left;
+  }
+
+  .tema_4 {
+    text-align: left;
+  }
+
+  .tema_5 {
+    text-align: left;
+  }
+
+  .tema_6 {
+    text-align: left;
+  }
+
+  .link {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    margin-top: 50px;
+    font-size: 0.8rem;
+    min-height: 120px;
   }
 }
