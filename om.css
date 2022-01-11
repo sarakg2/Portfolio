@@ -168,4 +168,81 @@ footer {
 }
 
 @media (max-width: 700px) {
+  #first_section {
+    width: 100%;
+    background-image: url(/Billeder/omg_mig_samlet_.png);
+    background-size: cover;
+    background-position: 10% 30%;
+    margin: 0 auto;
+  }
+
+  li {
+    display: block;
+    text-align: right;
+    font-size: 1rem;
+    margin-right: 20px;
+  }
+
+  .om_mig_tekst {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1rem;
+    position: relative;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .overskrift_1 {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .overskrift_2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .overskrift_3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .overskrift_4 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .cv h2 {
+    font-size: 4rem;
+    margin-bottom: 80px;
+  }
+
+  .cv h3 {
+    font-size: 2.2rem;
+  }
+
+  .cv h4 {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+  }
+
+  .cv p {
+    font-size: 1rem;
+  }
+
+  .uddannelse h2 {
+    font-size: 3.2rem;
+  }
+
+  .uddannelse h3 {
+    font-size: 2rem;
+  }
+
+  .uddannelse h4 {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+  }
+
+  .uddannelse p {
+    font-size: 1rem;
+  }
 }
