@@ -166,3 +166,6 @@ footer {
 #button:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+
+@media (max-width: 700px) {
+}

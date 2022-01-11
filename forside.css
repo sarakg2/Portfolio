@@ -52,12 +52,12 @@ header {
     margin: 0 auto;
   }
 
-  header {
-    font-size: 0.5rem;
+  li {
+    font-size: 1.2rem;
     margin-top: 6px;
-    margin-right: 182px;
-    text-align: right;
+    margin-right: 65px;
   }
+
   .splash-billede_tekst {
     font-size: 2.2rem;
     margin-top: 60px;

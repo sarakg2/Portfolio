@@ -124,3 +124,27 @@ footer {
   background-color: #ffff4e;
   font-family: "Archivo Black", sans-serif;
 }
+
+@media (max-width: 700px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  #first_section h3 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 0.8rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+
+  li {
+    display: inline-flex;
+    text-align: right;
+    font-size: 1rem;
+  }
+}
