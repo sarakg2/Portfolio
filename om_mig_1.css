@@ -170,7 +170,7 @@ footer {
 @media (max-width: 700px) {
   #first_section {
     width: 100%;
-    background-image: url(/billeder/omg_mig_samlet_.png);
+    background-image: url(billeder/om_mig.png);
     background-size: cover;
     background-position: 10% 30%;
     margin: 0 auto;
